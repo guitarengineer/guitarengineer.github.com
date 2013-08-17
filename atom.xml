@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Brian Donoghue's blog]]></title>
+  <link href="http://guitarengineer.github.com/atom.xml" rel="self"/>
+  <link href="http://guitarengineer.github.com/"/>
+  <updated>2013-08-17T12:48:49-04:00</updated>
+  <id>http://guitarengineer.github.com/</id>
+  <author>
+    <name><![CDATA[Brian Donoghue]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[testing the blog]]></title>
+    <link href="http://guitarengineer.github.com/blog/2013/08/17/testing-the-blog/"/>
+    <updated>2013-08-17T12:39:00-04:00</updated>
+    <id>http://guitarengineer.github.com/blog/2013/08/17/testing-the-blog</id>
+    <content type="html"><![CDATA[<p>This is some content</p>
+]]></content>
+  </entry>
+  
+</feed>
