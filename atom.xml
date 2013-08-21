@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Brian Donoghue's blog]]></title>
-  <link href="http://guitarengineer.github.com/atom.xml" rel="self"/>
-  <link href="http://guitarengineer.github.com/"/>
-  <updated>2013-08-17T12:48:49-04:00</updated>
-  <id>http://guitarengineer.github.com/</id>
+  <link href="http://guitarengineer.github.io/atom.xml" rel="self"/>
+  <link href="http://guitarengineer.github.io/"/>
+  <updated>2013-08-21T18:44:04-04:00</updated>
+  <id>http://guitarengineer.github.io/</id>
   <author>
     <name><![CDATA[Brian Donoghue]]></name>
     
@@ -15,10 +15,23 @@
   
   <entry>
     <title type="html"><![CDATA[testing the blog]]></title>
-    <link href="http://guitarengineer.github.com/blog/2013/08/17/testing-the-blog/"/>
+    <link href="http://guitarengineer.github.io/blog/2013/08/17/testing-the-blog/"/>
     <updated>2013-08-17T12:39:00-04:00</updated>
-    <id>http://guitarengineer.github.com/blog/2013/08/17/testing-the-blog</id>
-    <content type="html"><![CDATA[<p>This is some content</p>
+    <id>http://guitarengineer.github.io/blog/2013/08/17/testing-the-blog</id>
+    <content type="html"><![CDATA[<h1>This is a sweet header</h1>
+
+<h2>another header</h2>
+
+<p>The quick brown fox jumped over the lazy dog.</p>
+
+<p>dude duder</p>
+
+<h6>fuckin&#8217; H6</h6>
+
+<p>Nice list of some junk:
+&ndash; lamp
+&ndash; dog
+&ndash; hammer</p>
 ]]></content>
   </entry>
   
