@@ -4,7 +4,7 @@
   <title><![CDATA[making things work]]></title>
   <link href="http://guitarengineer.github.io/atom.xml" rel="self"/>
   <link href="http://guitarengineer.github.io/"/>
-  <updated>2013-12-01T13:21:31-05:00</updated>
+  <updated>2013-12-01T15:59:23-05:00</updated>
   <id>http://guitarengineer.github.io/</id>
   <author>
     <name><![CDATA[Brian Donoghue]]></name>
@@ -39,26 +39,26 @@ variety of online stores per foot.</p>
 With the switchcraft connectors you need to be able to secure the cable to the connector
 using the little &lsquo;clamps&rsquo; at the end of the connector.</p>
 
-<p><img src="./../images/canare_cables/IMG_2337.jpg"></p>
+<p><img src="http://guitarengineer.github.io/images/canare_cables/IMG_2337.jpg"></p>
 
 <p>Strip back the copper braid and twist to one side. I usually use a tiny flathead screwdriver
 to gently unbraid the sheild until I can twist it around. Note the black plastic conductive
 shield is underneath.
-<img src="./../images/canare_cables/IMG_2340.jpg">
+<img src="http://guitarengineer.github.io/images/canare_cables/IMG_2340.jpg">
 Cut back the plastic sheild as we do not want to risk shorting to the center conductor.
 Trim back the center insulation about &frac14; inch to expose the center conductor.
-<img src="./../images/canare_cables/IMG_2341.jpg">
+<img src="http://guitarengineer.github.io/images/canare_cables/IMG_2341.jpg">
 Tin both the twisted copper shield and the center conductor. Cut back the sheild to the point where the center insulator ends.
 At this point you can place the cable into the connector for a test fit. The cable should never be forced into place,
 it should natually rest in this position.
-<img src="./../images/canare_cables/IMG_2332.jpg">
+<img src="http://guitarengineer.github.io/images/canare_cables/IMG_2332.jpg">
 When everything looks like a good fit solder the shield first then the center conductor.
 Apply your soldering iron to the connector on the underside then apply solder. Best practice is to heat
 up the place you want the solder to flow TO, rather than the wire itself.
-<img src="./../images/canare_cables/IMG_2343.jpg">
-<img src="./../images/canare_cables/IMG_2345.jpg">
+<img src="http://guitarengineer.github.io/images/canare_cables/IMG_2343.jpg">
+<img src="http://guitarengineer.github.io/images/canare_cables/IMG_2345.jpg">
 After soldering I file back the nub of the center conductor that sticks up to leave room for the outer shell of the connector.
-<img src="./../images/canare_cables/IMG_2333.jpg"></p>
+<img src="http://guitarengineer.github.io/images/canare_cables/IMG_2333.jpg"></p>
 ]]></content>
   </entry>
   
