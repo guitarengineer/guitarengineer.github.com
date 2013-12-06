@@ -4,7 +4,7 @@
   <title><![CDATA[notes from the lab]]></title>
   <link href="http://guitarengineer.github.io/atom.xml" rel="self"/>
   <link href="http://guitarengineer.github.io/"/>
-  <updated>2013-12-05T20:14:18-05:00</updated>
+  <updated>2013-12-05T20:18:02-05:00</updated>
   <id>http://guitarengineer.github.io/</id>
   <author>
     <name><![CDATA[Brian Donoghue]]></name>
@@ -30,7 +30,7 @@
 
 <h3>Canare GS-6</h3>
 
-<p>This cable is very high quality with 100% coverage copper braid, additional conductive plastic sheild, and 18 gague center conductor. It can be purchased from a
+<p>This cable is very high quality with 100% coverage copper braid, additional conductive plastic shield, and 18 gague center conductor. It can be purchased from a
 variety of online stores per foot.</p>
 
 <h2>Assembly</h2>
@@ -42,13 +42,13 @@ using the little &lsquo;clamps&rsquo; at the end of the connector.</p>
 <p><img src="http://guitarengineer.github.io/images/canare_cables/IMG_2337.jpg"></p>
 
 <p>Strip back the copper braid and twist to one side. I usually use a tiny flathead screwdriver
-to gently unbraid the sheild until I can twist it around. Note the black plastic conductive
+to gently unbraid the shield until I can twist it around. Note the black plastic conductive
 shield is underneath.
 <img src="http://guitarengineer.github.io/images/canare_cables/IMG_2340.jpg">
-Cut back the plastic sheild as we do not want to risk shorting to the center conductor.
+Cut back the plastic shield as we do not want to risk shorting to the center conductor.
 Trim back the center insulation about &frac14; inch to expose the center conductor.
 <img src="http://guitarengineer.github.io/images/canare_cables/IMG_2341.jpg">
-Tin both the twisted copper shield and the center conductor. Cut back the sheild to the point where the center insulator ends.
+Tin both the twisted copper shield and the center conductor. Cut back the shield to the point where the center insulator ends.
 At this point you can place the cable into the connector for a test fit. The cable should never be forced into place,
 it should natually rest in this position.
 <img src="http://guitarengineer.github.io/images/canare_cables/IMG_2332.jpg">
