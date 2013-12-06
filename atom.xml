@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[making things work]]></title>
+  <title><![CDATA[notes from the lab]]></title>
   <link href="http://guitarengineer.github.io/atom.xml" rel="self"/>
   <link href="http://guitarengineer.github.io/"/>
-  <updated>2013-12-01T18:38:55-05:00</updated>
+  <updated>2013-12-05T20:14:18-05:00</updated>
   <id>http://guitarengineer.github.io/</id>
   <author>
     <name><![CDATA[Brian Donoghue]]></name>
