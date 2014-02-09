@@ -4,7 +4,7 @@
   <title><![CDATA[notes from the lab]]></title>
   <link href="http://guitarengineer.github.io/atom.xml" rel="self"/>
   <link href="http://guitarengineer.github.io/"/>
-  <updated>2014-02-09T13:02:18-05:00</updated>
+  <updated>2014-02-09T13:31:57-05:00</updated>
   <id>http://guitarengineer.github.io/</id>
   <author>
     <name><![CDATA[Brian Donoghue]]></name>
@@ -64,6 +64,10 @@ up to 45W, still pretty low for a full computer.</p>
 <li>Crashplan backup &ndash; offsite backup</li>
 </ul>
 
+
+<h2>Software deveopment</h2>
+
+<p>I enjoy programming, so I&rsquo;m also setting up various development tools, mostly centered around python.</p>
 ]]></content>
   </entry>
   
