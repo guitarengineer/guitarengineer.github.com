@@ -4,7 +4,7 @@
   <title><![CDATA[notes from the lab]]></title>
   <link href="http://guitarengineer.github.io/atom.xml" rel="self"/>
   <link href="http://guitarengineer.github.io/"/>
-  <updated>2014-02-09T12:25:55-05:00</updated>
+  <updated>2014-02-09T13:02:18-05:00</updated>
   <id>http://guitarengineer.github.io/</id>
   <author>
     <name><![CDATA[Brian Donoghue]]></name>
@@ -12,6 +12,60 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My home linux server]]></title>
+    <link href="http://guitarengineer.github.io/blog/2014/02/09/my-home-linux-server/"/>
+    <updated>2014-02-09T12:28:00-05:00</updated>
+    <id>http://guitarengineer.github.io/blog/2014/02/09/my-home-linux-server</id>
+    <content type="html"><![CDATA[<p>I recently put together a linux box to use as a home server. As most of our computing needs at home are filled
+by mobile devices and laptops, I found the need for a modestly-powered server to be a centralized, always-on
+machine for storage and services.</p>
+
+<h2>Main uses</h2>
+
+<ul>
+<li>Media server</li>
+<li>Backup server</li>
+<li>Software development</li>
+</ul>
+
+
+<h2>Specs</h2>
+
+<p>I put together a new machine at newegg. <a href="http://secure.newegg.com/WishList/PublicWishDetail.aspx?WishListNumber=20675551">Here</a> is the full parts list.
+The processor is one of the lower end Haswells, but still has plenty of kick. I have a small rack, so the rackmount case was a must. I got a 64GB SSD for the main
+drive and a 2TB WD green for storage.</p>
+
+<h3>Power Consumption</h3>
+
+<p>I was concerned about power usage, but was pleasantly suprised when I got the thing up and running that it only drew 25W
+while idle (measured with a <a href="http://www.p3international.com/products/p4400.html">killowatt meter</a>). Under a full CPU load it jumped
+up to 45W, still pretty low for a full computer.</p>
+
+<p>To stress the CPU I used the simple command</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>stress --cpu 2</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Operating system</h2>
+
+<p>I decided on linux mint as my OS. It seems to be a nice solid distro and I have heard a lot about how much people like it.</p>
+
+<h2>Services</h2>
+
+<ul>
+<li>Samba &ndash; file sharing</li>
+<li>SSH and VNC &ndash; so I can work on the machine from anywhere (it&rsquo;s in the basement, so I don&rsquo;t always want to be down there)</li>
+<li>Plex media sever</li>
+<li>Sick Beard</li>
+<li>Sabnzbd</li>
+<li>Crashplan backup &ndash; offsite backup</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Making guitar cables]]></title>

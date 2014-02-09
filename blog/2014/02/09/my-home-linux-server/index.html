@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Making guitar cables - notes from the lab</title>
+  <title>My home linux server - notes from the lab</title>
   <meta name="author" content="Brian Donoghue">
 
   
-  <meta name="description" content="Making your own guitar cables is easy and fun. Materials Canare GS-6 cable (from Redco)
-Switchcraft connectors (from Mouser) Canare GS-6 This cable &hellip;">
+  <meta name="description" content="I recently put together a linux box to use as a home server. As most of our computing needs at home are filled
+by mobile devices and laptops, I found &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@ Switchcraft connectors (from Mouser) Canare GS-6 This cable &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://guitarengineer.github.io/blog/2013/09/08/how-i-make-guitar-cables">
+  <link rel="canonical" href="http://guitarengineer.github.io/blog/2014/02/09/my-home-linux-server">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="notes from the lab" type="application/atom+xml">
@@ -69,7 +69,7 @@ Switchcraft connectors (from Mouser) Canare GS-6 This cable &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Making Guitar Cables</h1>
+      <h1 class="entry-title">My Home Linux Server</h1>
     
     
       <p class="meta">
@@ -85,54 +85,59 @@ Switchcraft connectors (from Mouser) Canare GS-6 This cable &hellip;">
   
 
 
-<time datetime="2013-09-08T22:43:00-04:00" pubdate data-updated="true">Sep 8<span>th</span>, 2013</time>
+<time datetime="2014-02-09T12:28:00-05:00" pubdate data-updated="true">Feb 9<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Making your own guitar cables is easy and fun.</p>
+<div class="entry-content"><p>I recently put together a linux box to use as a home server. As most of our computing needs at home are filled
+by mobile devices and laptops, I found the need for a modestly-powered server to be a centralized, always-on
+machine for storage and services.</p>
 
-<h2>Materials</h2>
+<h2>Main uses</h2>
 
 <ul>
-<li>Canare GS-6 cable (from <a href="http://www.redco.com/Canare-GS-6.html">Redco</a>)</li>
-<li>Switchcraft connectors (from <a href="http://www.mouser.com/Search/ProductDetail.aspx?R=280virtualkey50210000virtualkey502-280">Mouser</a>)</li>
+<li>Media server</li>
+<li>Backup server</li>
+<li>Software development</li>
 </ul>
 
 
-<h3>Canare GS-6</h3>
+<h2>Specs</h2>
 
-<p>This cable is very high quality with 100% coverage copper braid, additional conductive plastic shield, and 18 gague center conductor. It can be purchased from a
-variety of online stores per foot.</p>
+<p>I put together a new machine at newegg. <a href="http://secure.newegg.com/WishList/PublicWishDetail.aspx?WishListNumber=20675551">Here</a> is the full parts list.
+The processor is one of the lower end Haswells, but still has plenty of kick. I have a small rack, so the rackmount case was a must. I got a 64GB SSD for the main
+drive and a 2TB WD green for storage.</p>
 
-<h2>Assembly</h2>
+<h3>Power Consumption</h3>
 
-<p>Start by holding the cable up to the connector to get an idea of how much to strip the cable.
-With the switchcraft connectors you need to be able to secure the cable to the connector
-using the little &lsquo;clamps&rsquo; at the end of the connector.</p>
+<p>I was concerned about power usage, but was pleasantly suprised when I got the thing up and running that it only drew 25W
+while idle (measured with a <a href="http://www.p3international.com/products/p4400.html">killowatt meter</a>). Under a full CPU load it jumped
+up to 45W, still pretty low for a full computer.</p>
 
-<p><img src="/images/canare_cables/IMG_2337.jpg"></p>
+<p>To stress the CPU I used the simple command</p>
 
-<p>Strip back the copper braid and twist to one side. I usually use a tiny flathead screwdriver
-to gently unbraid the shield until I can twist it around. Note the black plastic conductive
-shield is underneath.
-<img src="/images/canare_cables/IMG_2340.jpg">
-Cut back the plastic shield as we do not want to risk shorting to the center conductor.
-Trim back the center insulation about &frac14; inch to expose the center conductor.
-<img src="/images/canare_cables/IMG_2341.jpg">
-Tin both the twisted copper shield and the center conductor. Cut back the shield to the point where the center insulator ends.
-At this point you can place the cable into the connector for a test fit. The cable should never be forced into place,
-it should natually rest in this position.
-<img src="/images/canare_cables/IMG_2332.jpg">
-When everything looks like a good fit solder the shield first then the center conductor.
-Apply your soldering iron to the connector on the underside then apply solder. Best practice is to heat
-up the place you want the solder to flow TO, rather than the wire itself.
-<img src="/images/canare_cables/IMG_2343.jpg">
-<img src="/images/canare_cables/IMG_2345.jpg">
-After soldering I file back the nub of the center conductor that sticks up to leave room for the outer shell of the connector.
-<img src="/images/canare_cables/IMG_2333.jpg"></p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>stress --cpu 2</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Operating system</h2>
+
+<p>I decided on linux mint as my OS. It seems to be a nice solid distro and I have heard a lot about how much people like it.</p>
+
+<h2>Services</h2>
+
+<ul>
+<li>Samba &ndash; file sharing</li>
+<li>SSH and VNC &ndash; so I can work on the machine from anywhere (it&rsquo;s in the basement, so I don&rsquo;t always want to be down there)</li>
+<li>Plex media sever</li>
+<li>Sick Beard</li>
+<li>Sabnzbd</li>
+<li>Crashplan backup &ndash; offsite backup</li>
+</ul>
+
 </div>
 
 
@@ -155,7 +160,7 @@ After soldering I file back the nub of the center conductor that sticks up to le
   
 
 
-<time datetime="2013-09-08T22:43:00-04:00" pubdate data-updated="true">Sep 8<span>th</span>, 2013</time>
+<time datetime="2014-02-09T12:28:00-05:00" pubdate data-updated="true">Feb 9<span>th</span>, 2014</time>
       
 
 
@@ -163,7 +168,7 @@ After soldering I file back the nub of the center conductor that sticks up to le
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://guitarengineer.github.io/blog/2013/09/08/how-i-make-guitar-cables/" data-via="" data-counturl="http://guitarengineer.github.io/blog/2013/09/08/how-i-make-guitar-cables/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://guitarengineer.github.io/blog/2014/02/09/my-home-linux-server/" data-via="" data-counturl="http://guitarengineer.github.io/blog/2014/02/09/my-home-linux-server/" >Tweet</a>
   
   
   
@@ -172,10 +177,8 @@ After soldering I file back the nub of the center conductor that sticks up to le
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2013/08/17/testing-the-blog/" title="Previous Post: testing the blog">&laquo; testing the blog</a>
+        <a class="basic-alignment left" href="/blog/2013/09/08/how-i-make-guitar-cables/" title="Previous Post: Making guitar cables">&laquo; Making guitar cables</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/02/09/my-home-linux-server/" title="Next Post: My home linux server">My home linux server &raquo;</a>
       
     </p>
   </footer>
